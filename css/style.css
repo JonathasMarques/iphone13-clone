@@ -194,7 +194,7 @@ header nav {
 
 /* tablet */
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     #main-content {
         padding: 2rem;
         overflow: hidden;
@@ -207,7 +207,7 @@ header nav {
 
 /* mobile */
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     #navbar li {
         display: none;
     }
@@ -231,5 +231,18 @@ header nav {
 
     #main-content #subtitle {
         font-size: 3rem;
+    }
+}
+
+/* mobile S 320px*/
+
+@media (max-width: 320px) {
+    
+    #image-picker li {
+        margin: .5rem;
+    }
+
+    #main-content #subtitle {
+        font-size: 2.2rem;
     }
 }
